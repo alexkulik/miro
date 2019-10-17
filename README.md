@@ -4,5 +4,5 @@ Test task for Miro
 How to use tests:
 ```
 npm install
-PASSWORD=********  npm test
+PASSWORD=******** EMAIL=your_login_email npm test
 ```

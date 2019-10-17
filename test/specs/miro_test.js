@@ -1,6 +1,6 @@
 const assert = require("assert");
 const userPassword = process.env.PASSWORD;
-const userEmail = "alexanderkulikov94@gmail.com";
+const userEmail = process.env.EMAIL;
 const $email = '[data-autotest-id="mr-form-login-email-1"]';
 const $password = '[data-autotest-id="mr-form-login-password-1"]';
 const $signUpButton = ".signup__submit";
